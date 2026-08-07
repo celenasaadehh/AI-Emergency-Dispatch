@@ -1,0 +1,37 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# macOS/editor files
+.DS_Store
+
+# Generated pipeline outputs
+pipeline_output/
+gemini_incident_context.md
+incident_nearby_places_structured.csv
+incident_report.md
+
+# Local scratch/debug files
+df.py
+*.log*
+*.bak
+static/*.old.html
+static/*.mapbackup.html
+static/
+DataSet/
+
+# Large local media and working documents
+Hackabytes/
+*.HEIC
+*.MOV
+*.pptx
+*.docx
