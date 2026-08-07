@@ -1,0 +1,3 @@
+incidentId,eventType,latitude,longitude,severity,radius_m
+TEST_BEIRUT_001,FIRE,33.8938,35.5018,80,100
+
